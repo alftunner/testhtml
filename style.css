@@ -5,7 +5,7 @@
     top: 0;
     left: 0;
     box-sizing: border-box;
-
+    border: black 9px solid;
     width: 300px;
     height: 600px;
     border-radius: 40px;
@@ -20,7 +20,7 @@
     -moz-transform: rotateY(-180deg);
     -ms-transform: rotateY(-180deg);
     transform: rotateY(-180deg);
-    background: darkseagreen;
+    background: black;
 }
 
 .container:hover .flipper {
@@ -35,9 +35,11 @@
     -moz-transform: rotateY(0deg);
     -ms-transform: rotateY(0deg);
     transform: rotateY(0deg);
-    border: black 9px solid;
     background: rgb(0,0,0);
     background: linear-gradient(45deg, rgba(0,0,0,1) 0%, rgba(91,91,91,1) 50%, rgba(226,226,226,1) 100%);
+}
+.apple {
+    margin-top: 150px;
 }
 .tong {
     display: inline-block;
@@ -46,8 +48,117 @@
     width: 180px;
     height: 20px;
     background-color: black;
-    left: 0;
-    right: 0;
+}
+.rect {
+    display: inline-block;
+    text-align: center;
+    border-radius: 15px 15px 15px 15px;
+    width: 35px;
+    height: 5px;
+    background-color: #4f4f4f;
+    margin-bottom: 5px;
+    margin-left: 10px;
+}
+.round {
+    display: inline-block;
+    text-align: center;
+    border-radius: 15px 15px 15px 15px;
+    width: 5px;
+    height: 5px;
+    background-color: #4f4f4f;
+    margin-bottom: 5px;
+    margin-left: 5px;
+}
+.cam {
+    display: inline-block;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    border-radius: 25px 25px 25px 25px;
+    width: 30px;
+    height: 30px;
+    border: gray 5px solid;
+    background: linear-gradient(45deg, rgba(0,0,0,1) 0%, rgba(91,91,91,1) 50%, rgba(226,226,226,1) 100%);
+    margin-bottom: 5px;
+    margin-left: 5px;
+}
+.light {
+    display: inline-block;
+    position: absolute;
+    left: 22.5px;
+    top: 59px;
+    border-radius: 25px 25px 25px 25px;
+    width: 15px;
+    height: 15px;
+    background: linear-gradient(45deg, rgba(0,0,0,1) 0%, rgba(91,91,91,1) 50%, rgba(226,226,226,1) 100%);
+    margin-bottom: 5px;
+    margin-left: 5px;
+}
+.but1 {
+    position: absolute;
+    display: inline-block;
+    text-align: left;
+    border-radius: 20px 20px 20px 20px;
+    width: 5px;
+    height: 35px;
+    background-color: black;
+    margin-top: 100px;
+    left: -12px;
+}
+.but2 {
+    position: absolute;
+    display: inline-block;
+    text-align: left;
+    border-radius: 20px 20px 20px 20px;
+    width: 5px;
+    height: 35px;
+    background-color: black;
+    margin-top: 140px;
+    left: -12px;
+}
+.but3 {
+    position: absolute;
+    display: inline-block;
+    text-align: left;
+    border-radius: 20px 20px 20px 20px;
+    width: 5px;
+    height: 55px;
+    background-color: black;
+    margin-top: 110px;
+    right: -12px;
+}
+.but4 {
+    position: absolute;
+    display: inline-block;
+    text-align: left;
+    border-radius: 20px 20px 20px 20px;
+    width: 5px;
+    height: 35px;
+    background-color: black;
+    margin-top: 100px;
+    right: -12px;
+}
+.but5 {
+    position: absolute;
+    display: inline-block;
+    text-align: left;
+    border-radius: 20px 20px 20px 20px;
+    width: 5px;
+    height: 35px;
+    background-color: black;
+    margin-top: 140px;
+    right: -12px;
+}
+.but6 {
+    position: absolute;
+    display: inline-block;
+    text-align: left;
+    border-radius: 20px 20px 20px 20px;
+    width: 5px;
+    height: 55px;
+    background-color: black;
+    margin-top: 110px;
+    left: -12px;
 }
 .container {
     text-align: center;
